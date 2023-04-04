@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Estonia&family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Outfit:wght@100;200;300;400&family=Poppins:wght@100;200;400&family=Roboto&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+  <body>
+
+    <div class="center content">
+      <div class="result">
+        <h4>Your Result</h4>
+        <div class="tscore">
+          <h1>76</h1>
+          <p class="of100">of 100</p>
+        </div>
+        <div class="remarks">
+          <h3>Great</h3>
+          <p>You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+      
+      <div class="summary">
+        <h4>Summary</h4>
+        <div id="reaction" class="bullets">
+          <span><img src="assets/images/icon-reaction.svg">Reaction</span>
+          <span class="score"><strong>80</strong> / 100</span>
+        </div>
+        <div id="memory" class="bullets">
+          <span><img src="assets/images/icon-memory.svg">Memory</span>
+          <span class="score"><strong>92</strong> / 100</span>
+        </div>      
+        <div id="verbal" class="bullets">
+          <span><img src="assets/images/icon-verbal.svg">Verbal</span>
+          <span class="score"><strong>61</strong> / 100</span>
+        </div>
+        <div id="visual" class="bullets">
+          <span><img src="assets/images/icon-visual.svg">Visual</span>
+          <span class="score"><strong>72</strong> / 100</span>
+        </div>
+
+        <button id="ctn_btn">Continue</button>
+      </div>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/mbtions" target="_blank">Meenakshi Bharadwaj</a>.
+    </div>
+  </body>
+</html>
