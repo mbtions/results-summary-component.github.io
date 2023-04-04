@@ -4,7 +4,13 @@
 }
 body{
     background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
 }
+/*
 .center{
     position: absolute;
     top: 50%;
@@ -12,6 +18,7 @@ body{
     margin: auto;
     transform: translate(-50%, -50%);
 }
+*/
 .content{
     display: flex;
     border-radius: 5%;
